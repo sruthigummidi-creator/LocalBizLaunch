@@ -1,0 +1,2 @@
+package com.localbiz.model;
+public class CustomerPreference { private int preferenceId,userId,categoryId; private String keywords; public int getPreferenceId(){return preferenceId;} public void setPreferenceId(int v){preferenceId=v;} public int getUserId(){return userId;} public void setUserId(int v){userId=v;} public int getCategoryId(){return categoryId;} public void setCategoryId(int v){categoryId=v;} public String getKeywords(){return keywords;} public void setKeywords(String v){keywords=v;} }

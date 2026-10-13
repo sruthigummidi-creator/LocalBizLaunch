@@ -1,0 +1,4 @@
+package com.localbiz.model;
+import java.math.BigDecimal;
+public class Product { private int productId,businessId; private String productName,description,imagePath; private BigDecimal price; private boolean available=true;
+ public int getProductId(){return productId;} public void setProductId(int v){productId=v;} public int getBusinessId(){return businessId;} public void setBusinessId(int v){businessId=v;} public String getProductName(){return productName;} public void setProductName(String v){productName=v;} public String getDescription(){return description;} public void setDescription(String v){description=v;} public String getImagePath(){return imagePath;} public void setImagePath(String v){imagePath=v;} public BigDecimal getPrice(){return price;} public void setPrice(BigDecimal v){price=v;} public boolean isAvailable(){return available;} public void setAvailable(boolean v){available=v;} }
